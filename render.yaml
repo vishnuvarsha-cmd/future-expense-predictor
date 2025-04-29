@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: future expense-prediction
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
